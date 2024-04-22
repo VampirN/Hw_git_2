@@ -1,4 +1,3 @@
 def func(value: str):
-    return value.upper()
-
+    return value.title()
 
