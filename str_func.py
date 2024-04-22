@@ -1,3 +1,8 @@
 def func(value: str):
-    return value.title()
+    '''Функция для верхнего регистра'''
+    return value.upper()
 
+
+def func_two(value: str):
+    '''Функция для первой буквы в верхнем регистре'''
+    return value.title()
